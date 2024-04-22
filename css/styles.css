@@ -10,7 +10,7 @@
     justify-content: center;
     font-size: 300%;
     text-align: center;
-}
+    }
 
 .letrafont {
     font-family: "Outfit", sans-serif;
@@ -28,50 +28,15 @@
 
 
 
-
 footer {
     background-color: #000000;
-    padding: 20px 0;
     text-align: center;
     color: aliceblue;
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-around;
-}
-
-.about-us,
-.contact,
-.social {
-    flex: 1;
-    margin: 0 10px;
-    color: aliceblue;
-}
-
-.about-us h3,
-.contact h3,
-.social h3 {
-    color: #ffffff;
-}
-
-.social ul {
-    list-style: none;
-    padding: 0;
-}
-
-.social ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-.social ul li a {
-    color: #ffffff;
+.boton {
     text-decoration: none;
-}
-
-.social ul li a:hover {
-    color: #ffffff;
+    color: rgb(252, 252, 252);
 }
 
 @media only screen and (max-width: 800px) {
@@ -79,6 +44,17 @@ footer {
         width: 32%;
         float: left;
         border: 2px solid orange;
+    }
+    .titulo {
+        background-image: url(../img/banner.jpeg);
+        height: 100vh;
+        color: white;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 200%;
+        text-align: center;
     }
     }
   }
