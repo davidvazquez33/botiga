@@ -73,3 +73,12 @@ footer {
 .social ul li a:hover {
     color: #ffffff;
 }
+
+@media only screen and (max-width: 800px) {
+    .imagenes {
+        width: 32%;
+        float: left;
+        border: 2px solid orange;
+    }
+    }
+  }
