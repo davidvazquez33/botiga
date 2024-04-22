@@ -9,13 +9,14 @@
     align-items: center;
     justify-content: center;
     font-size: 300%;
+    font-size: 5vw; /* Utilizando vw (viewport width) para hacer el tamaño de fuente responsive */
     text-align: center;
-    }
+}
 
 .letrafont {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
   }
 
@@ -26,35 +27,37 @@
 }
 
 
-
-
-footer {
-    background-color: #000000;
-    text-align: center;
-    color: aliceblue;
-}
-
 .boton {
     text-decoration: none;
     color: rgb(252, 252, 252);
 }
 
+footer {
+    width: 100%;
+    background-color: rgb(255, 153, 0);
+    text-align: center;
+    color: white;
+    clear: both;
+    padding: 1%;
+}
+
+
 @media only screen and (max-width: 800px) {
     .imagenes {
         width: 32%;
-        float: left;
-        border: 2px solid orange;
+        border: 1px solid orange;
     }
     .titulo {
-        background-image: url(../img/banner.jpeg);
-        height: 100vh;
-        color: white;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 200%;
-        text-align: center;
+        font-size: 8vw; /* Tamaño de fuente más grande para pantallas más pequeñas */
+        font-size: 150%;
     }
+
+    footer {
+        padding: 0.5%;
     }
-  }
+    .titulo {
+         height: 50vh;
+         } 
+    }
+
+  
